@@ -103,38 +103,39 @@ npm run dev
 ```
 supabase functions deploy
 ```
-📈 Why This Project Stands Out
+## 📈 Why This Project Stands Out
 
-✅ Not a notebook — a real production-grade app
-✅ Uses serverless ML inference
-✅ Handles multiple input formats
-✅ Shows end-to-end ML deployment skills
-✅ Clean, scalable, and industry-aligned architecture
+- ✅ **Not a notebook** — a real production-grade application  
+- ⚡ **Serverless ML inference** using modern cloud architecture  
+- 📄 **Multiple input formats** — text, URL, and document analysis  
+- 🔁 **End-to-end ML deployment** (not just model training)  
+- 🧩 **Clean, scalable, industry-aligned architecture**
 
-This project reflects how ML systems are actually built and deployed in startups and product teams.
+> This project reflects how **machine learning systems are actually built and deployed** in startups and product-driven teams.
 
-🎯 Use Cases
+---
 
-Journalism & media verification
+## 🎯 Use Cases
 
-Fact-checking platforms
+- 📰 Journalism & media verification  
+- 🕵️ Fact-checking platforms  
+- 🎓 Educational institutions  
+- 📊 Research & policy analysis  
+- 🛡️ AI safety & misinformation detection  
 
-Educational institutions
+---
 
-Research & policy analysis
+## 👨‍💻 Author
 
-AI safety & misinformation detection
+**Ayush Raj**
 
-👨‍💻 Author
+- 🔗 GitHub: [https://github.com/Ayushraj08](https://github.com/Ayushraj08)
+- 💼 LinkedIn: [https://www.linkedin.com/in/ayussh-raj](https://www.linkedin.com/in/ayussh-raj)
 
-Ayush Raj
+---
 
-GitHub: https://github.com/Ayushraj08
+## ⭐ Acknowledgements
 
-LinkedIn: https://www.linkedin.com/in/ayussh-raj
+Inspired by **real-world misinformation challenges** and built to showcase **practical ML engineering**, not just theory.
 
-⭐ Acknowledgements
-
-Inspired by real-world misinformation challenges and built to demonstrate practical ML engineering, not just theory.
-
-If you find this project useful, please ⭐ the repository — it helps a lot!
+> If you find this project useful, please ⭐ the repository — it helps a lot!
