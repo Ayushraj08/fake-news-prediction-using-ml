@@ -1,6 +1,6 @@
 # 📰 Fake News Prediction Using Machine Learning
 
-An **AI-powered full-stack web application** that detects **fake vs real news** using **ensemble machine learning techniques**, supporting **text, URL, and document-based analysis** with high confidence scoring.
+An **ML-powered full-stack web application** that detects **fake vs real news** using **ensemble machine learning techniques**, supporting **text, URL, and document-based analysis** with high confidence scoring.
 
 Built with a **modern frontend**, **serverless ML inference**, and **scalable architecture**, this project demonstrates real-world application of ML beyond notebooks.
 
