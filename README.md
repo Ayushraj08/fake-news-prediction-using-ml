@@ -4,6 +4,8 @@ An **ML-powered full-stack web application** that detects **fake vs real news** 
 
 Built with a **modern frontend**, **serverless ML inference**, and **scalable architecture**, this project demonstrates real-world application of ML beyond notebooks.
 
+**URL: https://fake-news-prediction.lovable.app/**
+
 ---
 
 ## 🚀 Live Capabilities
@@ -70,7 +72,7 @@ fake-news-prediction-using-ml/
 ├── README.md
 ├── .gitignore
 └── package.json
-
+```
 
 ---
 
