@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Light Theme */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 10%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 240 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 10%;
+
+    /* Purple Primary */
+    --primary: 280 70% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Cyan Accent */
+    --secondary: 180 70% 45%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 240 5% 92%;
+    --muted-foreground: 240 5% 45%;
+
+    --accent: 180 70% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Red for Fake */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Green for Real */
+    --success: 142 70% 40%;
+    --success-foreground: 0 0% 100%;
+
+    --border: 240 5% 85%;
+    --input: 240 5% 90%;
+    --ring: 280 70% 55%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(280 70% 55%) 0%, hsl(180 70% 45%) 100%);
+    --gradient-dark: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(240 5% 96%) 100%);
+    --gradient-glow: radial-gradient(circle at 50% 0%, hsl(280 70% 55% / 0.1), transparent 50%);
+    
+    /* Glass Effect */
+    --glass-bg: hsl(0 0% 100% / 0.8);
+    --glass-border: hsl(240 5% 80% / 0.5);
+    
+    /* Shadows */
+    --shadow-glow-purple: 0 0 30px hsl(280 70% 55% / 0.2);
+    --shadow-glow-cyan: 0 0 30px hsl(180 70% 45% / 0.2);
+    --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.1);
+  }
+
+  .dark {
+    /* Cyberpunk Dark Theme */
+    --background: 240 10% 7%;
+    --foreground: 210 100% 98%;
+
+    --card: 240 8% 12%;
+    --card-foreground: 210 100% 98%;
+
+    --popover: 240 8% 12%;
+    --popover-foreground: 210 100% 98%;
+
+    /* Neon Purple Primary */
+    --primary: 280 90% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Cyan Accent */
+    --secondary: 180 85% 55%;
+    --secondary-foreground: 240 10% 7%;
+
+    --muted: 240 10% 18%;
+    --muted-foreground: 210 40% 70%;
+
+    --accent: 180 85% 55%;
+    --accent-foreground: 240 10% 7%;
+
+    /* Red for Fake */
+    --destructive: 0 85% 62%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Green for Real */
+    --success: 142 76% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --border: 240 20% 25%;
+    --input: 240 15% 20%;
+    --ring: 280 90% 65%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(280 90% 65%) 0%, hsl(180 85% 55%) 100%);
+    --gradient-dark: linear-gradient(180deg, hsl(240 10% 7%) 0%, hsl(240 10% 12%) 100%);
+    --gradient-glow: radial-gradient(circle at 50% 0%, hsl(280 90% 65% / 0.15), transparent 50%);
+    
+    /* Glass Effect */
+    --glass-bg: hsl(240 8% 12% / 0.6);
+    --glass-border: hsl(240 20% 35% / 0.3);
+    
+    /* Shadows */
+    --shadow-glow-purple: 0 0 30px hsl(280 90% 65% / 0.3);
+    --shadow-glow-cyan: 0 0 30px hsl(180 85% 55% / 0.3);
+    --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.4);
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-card/60 backdrop-blur-xl border border-border/50;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+  
+  .glow-purple {
+    box-shadow: 0 0 20px hsl(280 90% 65% / 0.5);
+  }
+  
+  .glow-cyan {
+    box-shadow: 0 0 20px hsl(180 85% 55% / 0.5);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
