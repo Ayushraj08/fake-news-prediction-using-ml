@@ -51,20 +51,21 @@ Built with a **modern frontend**, **serverless ML inference**, and **scalable ar
 
 ## 📂 Project Structure
 
+```text
 fake-news-prediction-using-ml/
 │
-├── frontend/ # React + TypeScript frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ └── routes/
+├── frontend/                 # React + TypeScript frontend
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── routes/
 │
 ├── supabase/
-│ └── functions/ # Serverless ML logic
-│ ├── predict-text/
-│ ├── ensemble-predict/
-│ ├── extract-url/
-│ └── analyze-document/
+│   └── functions/            # Serverless ML logic
+│       ├── predict-text/
+│       ├── ensemble-predict/
+│       ├── extract-url/
+│       └── analyze-document/
 │
 ├── README.md
 ├── .gitignore
@@ -103,6 +104,13 @@ npm run dev
 ```
 supabase functions deploy
 ```
+## 📸 Screenshots
+<img width="1899" height="929" alt="Screenshot 2025-12-14 180746" src="https://github.com/user-attachments/assets/de9f5b38-5bbc-45c4-860f-415a34312f92" />
+<img width="1903" height="923" alt="Screenshot 2025-12-14 180756" src="https://github.com/user-attachments/assets/61581579-d567-45db-b6ab-5414f5e326b9" />
+<img width="1906" height="930" alt="Screenshot 2025-12-14 180808" src="https://github.com/user-attachments/assets/8406addd-cc5a-4fc5-a462-47bd831eee19" />
+<img width="1897" height="927" alt="Screenshot 2025-12-14 180817" src="https://github.com/user-attachments/assets/2275264c-6d32-4b02-b05b-922eda7867b4" />
+<img width="1894" height="928" alt="Screenshot 2025-12-14 180830" src="https://github.com/user-attachments/assets/67a22def-2478-45c0-974a-51da1fc15ccd" />
+
 ## 📈 Why This Project Stands Out
 
 - ✅ **Not a notebook** — a real production-grade application  
